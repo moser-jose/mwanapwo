@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { StateFirebaseContext } from './contexts/firebaseContext';
-
+import { AuthContextProvider } from "./contexts/authContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <StateFirebaseContext>
-      <App />
-    </StateFirebaseContext>
+    {/* <StateFirebaseContext> */}
+      <AuthContextProvider>
+        <App />
+      </AuthContextProvider>
+   {/*  </StateFirebaseContext> */}
   </React.StrictMode>
 );
 

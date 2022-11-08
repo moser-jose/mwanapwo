@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useEffect, useCallback } from 'react';
-import {firebase}  from '../api/api'
+import {app}  from '../api/api'
 import { collection, getDocs, getFirestore } from "firebase/firestore";
 
 export const StateContext = createContext();
@@ -9,7 +9,7 @@ export const StateFirebaseContext = ({ children }) => {
     const [usuarios, setUsuarios]=useState([]);
     //const navigate = useNavigate();
 
-    const db= getFirestore(firebase);
+    const db= getFirestore(app);
     const userCollectionRef= collection(db, "riders");
 
     useEffect(() => {
