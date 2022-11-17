@@ -7,8 +7,8 @@ function Privacidade() {
                 <h1>Política de Privacidade</h1>
             <p>Esta política de privacidade foi revista e atualizada em 17/11/2022</p>
             <p>
-                Esta política de privacidade descreve as formas que o Aplicativo Mwana  Pwo Táxi utiliza para coletar, armazenamento
-                e proteção das informações pessoais dos utilizadores.
+                Esta política de privacidade descreve as formas que o Aplicativo Mwana  Pwo Táxi utiliza para coletar, armazenar
+                e proteger od dados pessoais dos utilizadores.
                 Ao se inscrever no Aplicativo Mwana  Pwo Táxi, você estará concordando com a nossa política de privacidade.
             </p>
             <p>
